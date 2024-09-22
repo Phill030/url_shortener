@@ -1,0 +1,80 @@
+.wrapper {
+  width: 20vw;
+
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    color: white;
+    font-family: geist;
+    text-align: center;
+    user-select: none;
+  }
+
+  .box {
+    background-color: #5c5c5c;
+    padding: 5px;
+    border-radius: 8px;
+
+    .urlInput {
+      color: white;
+    }
+
+    .shortenButton {
+      background-color: #b331a8;
+      color: #ffffff;
+      font-family: geist;
+      font-weight: 500;
+      font-size: 1em;
+      width: 100%;
+  
+      &:hover {
+          background-color: #86247e;  
+          color: #d1d1d1;
+      }
+
+      &:disabled {
+        background-color: #681c61;  
+        color: #aaaaaa;
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  .error {
+    font-family: geist;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: red;
+    margin-top: 10px;
+  }
+
+  .result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.1em;
+  
+    p {
+      color: white;
+      font-family: geist;
+      margin: 0
+    }
+
+    a {
+      color: #0099ff;
+      font-family: geist;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 550px) {
+  .wrapper {
+    width: 80%;
+  }
+}

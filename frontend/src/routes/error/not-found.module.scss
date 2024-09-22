@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-family: geist;
+    font-size: 4em;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.text2 {
+    font-family: geist;
+    font-size: 3em;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.returnButton {
+    background-color: #b331a8;
+    color: #ffffff;
+    font-family: geist;
+    font-weight: 500;
+    font-size: 1em;
+
+    &:hover {
+        background-color: #86247e;  
+        color: #d1d1d1;
+    }
+}

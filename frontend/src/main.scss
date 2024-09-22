@@ -1,0 +1,32 @@
+@font-face {
+  font-family: geist;
+  src: url("../assets/fonts/GeistVF.ttf");
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100%;
+    height: 100vh;
+  
+    margin: 0;
+  }
+
+body {
+  background-color: #363138;
+
+  height: 100vh;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+

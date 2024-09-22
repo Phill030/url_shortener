@@ -1,0 +1,15 @@
+[package]
+name = "shortyyy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-sqlite = "0.3.1"
+axum = "0.7.5"
+chrono = "0.4.38"
+clap = { version = "4.5.17", features = ["derive"] }
+rand = "0.8.5"
+serde = { version = "1.0.210", features = ["derive"] }
+tokio = { version = "1.40.0", features = ["full"] }
+tower-http = { version = "0.5.2", features = ["cors", "fs"] }
+url = "2.5.2"
